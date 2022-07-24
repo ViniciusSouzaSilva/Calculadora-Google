@@ -1,0 +1,38 @@
+body
+{
+    display: grid;
+    zoom: 200%;
+    justify-content: center;
+    align-items: center;
+}
+#display
+{
+    width: 204px;
+    height: 15px;
+    border-width: 0.1px;
+    border-radius: 3px;
+    text-align: right;
+    padding-top: 20px;
+}
+.btn
+{
+    border-width: 0;
+    width: 50px;
+    height: 20px;
+    margin-top: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.num
+{
+    background-color: rgb(243, 243, 243);
+}
+.op
+{
+    background-color: rgb(219, 219, 219);
+}
+.eq
+{
+    color: white;
+    background-color: rgb(49, 114, 255);
+}
