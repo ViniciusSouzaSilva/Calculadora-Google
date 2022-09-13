@@ -4,9 +4,12 @@ body
     zoom: 200%;
     justify-content: center;
     align-items: center;
+    background-color: rgb(30, 30, 32);
 }
 #display
 {
+    color: white;
+    background-color: rgb(62,62,66) ;
     width: 204px;
     height: 15px;
     border-width: 0.1px;
@@ -16,6 +19,7 @@ body
 }
 .btn
 {
+    font-size: 10px;
     border-width: 0;
     width: 50px;
     height: 20px;
@@ -23,16 +27,30 @@ body
     border-radius: 3px;
     cursor: pointer;
 }
+.num:hover
+{
+    background-color: rgb(97, 97, 104);
+}
 .num
 {
-    background-color: rgb(243, 243, 243);
+    color: white;
+    background-color: rgb(62,62,66);
 }
 .op
 {
-    background-color: rgb(219, 219, 219);
+    color: white;
+    background-color: rgb(99, 101, 105);
+}
+.op:hover
+{
+    background-color: rgb(133, 136, 143);
 }
 .eq
 {
-    color: white;
-    background-color: rgb(49, 114, 255);
+    color: black;
+    background-color: rgb(106, 153, 255);
+}
+.eq:hover
+{
+    background-color: rgb(146, 180, 252);
 }
